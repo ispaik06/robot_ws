@@ -1,0 +1,46 @@
+[1.043s] Invoking command in '/home/ispaik06/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/sasa_bot -- -j12 -l12
+[1.110s] Invoked command in '/home/ispaik06/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/sasa_bot -- -j12 -l12
+[1.189s] Invoking command in '/home/ispaik06/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/sasa_bot
+[1.190s] -- Install configuration: ""
+[1.193s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/config
+[1.195s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/config/joystick.yaml
+[1.196s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/config/empty.yaml
+[1.197s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/config/my_controllers.yaml
+[1.198s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/config/gazebo_params.yaml
+[1.198s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/config/view_bot.rviz
+[1.199s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/config/main.rviz
+[1.200s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description
+[1.200s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/robot_core_template.xacro
+[1.201s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/lidar.xacro
+[1.202s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/camera.xacro
+[1.202s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/ros2_control.xacro
+[1.203s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/inertial_macros.xacro
+[1.204s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/robot_core.xacro
+[1.204s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/depth_camera.xacro
+[1.205s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/gazebo_control.xacro
+[1.205s] -- Installing: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/robot.urdf.xacro
+[1.206s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/launch
+[1.207s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/launch/rsp.launch.py
+[1.208s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/launch/joystick.launch.py
+[1.208s] -- Installing: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/launch/launch_sim.launch.py
+[1.209s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/worlds
+[1.210s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/worlds/obstacles.world
+[1.210s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/worlds/empty.world
+[1.211s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/worlds/obstacles_depth.world
+[1.211s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/worlds/obstaclesFinal.world
+[1.212s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/ament_index/resource_index/package_run_dependencies/sasa_bot
+[1.212s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/ament_index/resource_index/parent_prefix_path/sasa_bot
+[1.215s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/environment/ament_prefix_path.sh
+[1.216s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/environment/ament_prefix_path.dsv
+[1.221s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/environment/path.sh
+[1.222s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/environment/path.dsv
+[1.222s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.bash
+[1.223s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.sh
+[1.223s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.zsh
+[1.223s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.dsv
+[1.223s] -- Installing: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.dsv
+[1.223s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/ament_index/resource_index/packages/sasa_bot
+[1.223s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/cmake/sasa_botConfig.cmake
+[1.223s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/cmake/sasa_botConfig-version.cmake
+[1.223s] -- Up-to-date: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.xml
+[1.385s] Invoked command in '/home/ispaik06/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/sasa_bot

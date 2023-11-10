@@ -1,0 +1,1 @@
+/home/ispaik06/robot_ws/build/ydlidar/ament_cmake_core/ydlidarConfig-version.cmake

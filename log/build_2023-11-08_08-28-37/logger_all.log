@@ -1,0 +1,379 @@
+[1.074s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.075s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff1a1f1cf70>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff1a1f1cf70>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff1a1f2e9d0>)
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.123s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ispaik06/robot_ws'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ignore', 'ignore_ament_install']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ignore_ament_install'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_pkg']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_pkg'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['colcon_meta']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'colcon_meta'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['ros']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'ros'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extensions ['cmake', 'python']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'cmake'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/YDLidar-SDK) by extension 'python'
+[1.142s] DEBUG:colcon.colcon_core.package_identification:Package 'src/YDLidar-SDK' with type 'cmake' and name 'ydlidar_sdk'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['ignore', 'ignore_ament_install']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ignore'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ignore_ament_install'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['colcon_pkg']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'colcon_pkg'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['colcon_meta']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'colcon_meta'
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extensions ['ros']
+[1.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/joy_tester) by extension 'ros'
+[1.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joy_tester' with type 'ros.ament_python' and name 'joy_tester'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extensions ['ignore', 'ignore_ament_install']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extension 'ignore'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extension 'ignore_ament_install'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extensions ['colcon_pkg']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extension 'colcon_pkg'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extensions ['colcon_meta']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extension 'colcon_meta'
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extensions ['ros']
+[1.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/sasa_bot) by extension 'ros'
+[1.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sasa_bot' with type 'ros.ament_cmake' and name 'sasa_bot'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extensions ['ignore', 'ignore_ament_install']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extension 'ignore'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extension 'ignore_ament_install'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extension 'colcon_pkg'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extensions ['colcon_meta']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extension 'colcon_meta'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extensions ['ros']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/urdf_example) by extension 'ros'
+[1.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/urdf_example' with type 'ros.ament_cmake' and name 'urdf_example'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extension 'ignore'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extension 'ignore_ament_install'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extensions ['colcon_pkg']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extension 'colcon_pkg'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extensions ['colcon_meta']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extension 'colcon_meta'
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extensions ['ros']
+[1.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ydlidar_ros2) by extension 'ros'
+[1.146s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ydlidar_ros2' with type 'ros.ament_cmake' and name 'ydlidar'
+[1.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.251s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.286s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ispaik06/robot_ws/install
+[1.304s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 291 installed packages in /opt/ros/foxy
+[1.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_args' from command line to 'None'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target' from command line to 'None'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_cache' from command line to 'False'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_clean_first' from command line to 'False'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'cmake_force_configure' from command line to 'False'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'ament_cmake_args' from command line to 'None'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_cmake_args' from command line to 'None'
+[1.375s] Level 5:colcon.colcon_core.verb:set package 'joy_tester' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.375s] DEBUG:colcon.colcon_core.verb:Building package 'joy_tester' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ispaik06/robot_ws/build/joy_tester', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ispaik06/robot_ws/install/joy_tester', 'merge_install': False, 'path': '/home/ispaik06/robot_ws/src/joy_tester', 'symlink_install': False, 'test_result_base': None}
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'cmake_args' from command line to 'None'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'cmake_target' from command line to 'None'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'cmake_clean_first' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'cmake_force_configure' from command line to 'False'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'ament_cmake_args' from command line to 'None'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.393s] Level 5:colcon.colcon_core.verb:set package 'sasa_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.393s] DEBUG:colcon.colcon_core.verb:Building package 'sasa_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ispaik06/robot_ws/build/sasa_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ispaik06/robot_ws/install/sasa_bot', 'merge_install': False, 'path': '/home/ispaik06/robot_ws/src/sasa_bot', 'symlink_install': False, 'test_result_base': None}
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'cmake_args' from command line to 'None'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'cmake_target' from command line to 'None'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'cmake_clean_cache' from command line to 'False'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'cmake_clean_first' from command line to 'False'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'cmake_force_configure' from command line to 'False'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'ament_cmake_args' from command line to 'None'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'catkin_cmake_args' from command line to 'None'
+[1.413s] Level 5:colcon.colcon_core.verb:set package 'urdf_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.413s] DEBUG:colcon.colcon_core.verb:Building package 'urdf_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ispaik06/robot_ws/build/urdf_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ispaik06/robot_ws/install/urdf_example', 'merge_install': False, 'path': '/home/ispaik06/robot_ws/src/urdf_example', 'symlink_install': False, 'test_result_base': None}
+[1.432s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_args' from command line to 'None'
+[1.432s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_target' from command line to 'None'
+[1.432s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.432s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_clean_cache' from command line to 'False'
+[1.432s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_clean_first' from command line to 'False'
+[1.432s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'cmake_force_configure' from command line to 'False'
+[1.432s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'ament_cmake_args' from command line to 'None'
+[1.432s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'catkin_cmake_args' from command line to 'None'
+[1.433s] Level 5:colcon.colcon_core.verb:set package 'ydlidar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.433s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ispaik06/robot_ws/build/ydlidar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ispaik06/robot_ws/install/ydlidar', 'merge_install': False, 'path': '/home/ispaik06/robot_ws/src/ydlidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_args' from command line to 'None'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target' from command line to 'None'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[1.450s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[1.451s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[1.451s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[1.451s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.451s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ispaik06/robot_ws/build/ydlidar_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ispaik06/robot_ws/install/ydlidar_sdk', 'merge_install': False, 'path': '/home/ispaik06/robot_ws/src/YDLidar-SDK', 'symlink_install': False, 'test_result_base': None}
+[1.469s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.496s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ispaik06/robot_ws/src/joy_tester' with build type 'ament_python'
+[1.496s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'ament_prefix_path')
+[1.516s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.ps1'
+[1.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ispaik06/robot_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.dsv'
+[1.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/joy_tester/share/joy_tester/hook/ament_prefix_path.sh'
+[1.536s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.536s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.595s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ispaik06/robot_ws/src/sasa_bot' with build type 'ament_cmake'
+[1.595s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ispaik06/robot_ws/src/sasa_bot'
+[1.616s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.616s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.686s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ispaik06/robot_ws/src/urdf_example' with build type 'ament_cmake'
+[1.686s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ispaik06/robot_ws/src/urdf_example'
+[1.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.767s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ispaik06/robot_ws/src/ydlidar_ros2' with build type 'ament_cmake'
+[1.768s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ispaik06/robot_ws/src/ydlidar_ros2'
+[1.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.788s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.850s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ispaik06/robot_ws/src/YDLidar-SDK'
+[1.870s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.870s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.055s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ispaik06/robot_ws/src/joy_tester'
+[2.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.075s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ispaik06/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/sasa_bot -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/sasa_bot
+[2.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ispaik06/robot_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/urdf_example -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/urdf_example
+[2.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ispaik06/robot_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/ydlidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/ydlidar
+[2.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ispaik06/robot_ws/build/ydlidar_sdk': /usr/bin/cmake --build /home/ispaik06/robot_ws/build/ydlidar_sdk -- -j12 -l12
+[2.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ispaik06/robot_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --build /home/ispaik06/robot_ws/build/ydlidar_sdk -- -j12 -l12
+[2.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ispaik06/robot_ws/build/ydlidar_sdk': /usr/bin/cmake --install /home/ispaik06/robot_ws/build/ydlidar_sdk
+[2.329s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_sdk)
+[2.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ispaik06/robot_ws/build/ydlidar_sdk' returned '0': /usr/bin/cmake --install /home/ispaik06/robot_ws/build/ydlidar_sdk
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar_sdk' for CMake module files
+[2.368s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar_sdk' for CMake config files
+[2.369s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'cmake_prefix_path')
+[2.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.ps1'
+[2.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.dsv'
+[2.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/cmake_prefix_path.sh'
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar_sdk/lib'
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar_sdk/bin'
+[2.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'path')
+[2.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.ps1'
+[2.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.dsv'
+[2.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/path.sh'
+[2.441s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar_sdk/lib/pkgconfig/ydlidar_sdk.pc'
+[2.441s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar_sdk/lib/python3.8/site-packages'
+[2.441s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar_sdk/bin'
+[2.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_sdk', 'pythonscriptspath')
+[2.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.ps1'
+[2.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.dsv'
+[2.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/hook/pythonscriptspath.sh'
+[2.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.ps1'
+[2.493s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.dsv'
+[2.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.sh'
+[2.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.bash'
+[2.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/ydlidar_sdk/share/ydlidar_sdk/package.zsh'
+[2.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ispaik06/robot_ws/install/ydlidar_sdk/share/colcon-core/packages/ydlidar_sdk)
+[2.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ispaik06/robot_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/urdf_example -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/urdf_example
+[2.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ispaik06/robot_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/urdf_example -- -j12 -l12
+[2.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ispaik06/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/sasa_bot -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/sasa_bot
+[2.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ispaik06/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/sasa_bot -- -j12 -l12
+[2.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ispaik06/robot_ws/build/joy_tester': PYTHONPATH=/home/ispaik06/robot_ws/build/joy_tester/prefix_override:/home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ispaik06/robot_ws/build/joy_tester/build
+[2.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ispaik06/robot_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/urdf_example -- -j12 -l12
+[2.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ispaik06/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/sasa_bot -- -j12 -l12
+[2.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ispaik06/robot_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/urdf_example
+[2.560s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ispaik06/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/sasa_bot
+[2.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_example)
+[2.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ispaik06/robot_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/urdf_example
+[2.604s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/urdf_example' for CMake module files
+[2.604s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/urdf_example' for CMake config files
+[2.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_example', 'cmake_prefix_path')
+[2.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/hook/cmake_prefix_path.ps1'
+[2.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/hook/cmake_prefix_path.dsv'
+[2.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/hook/cmake_prefix_path.sh'
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/urdf_example/bin'
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/urdf_example/lib/pkgconfig/urdf_example.pc'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/urdf_example/lib/python3.8/site-packages'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/urdf_example/bin'
+[2.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/package.ps1'
+[2.658s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/package.dsv'
+[2.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/package.sh'
+[2.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/package.bash'
+[2.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/package.zsh'
+[2.658s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ispaik06/robot_ws/install/urdf_example/share/colcon-core/packages/urdf_example)
+[2.662s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sasa_bot)
+[2.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ispaik06/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/sasa_bot
+[2.693s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/sasa_bot' for CMake module files
+[2.693s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/sasa_bot' for CMake config files
+[2.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('sasa_bot', 'cmake_prefix_path')
+[2.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/hook/cmake_prefix_path.ps1'
+[2.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/hook/cmake_prefix_path.dsv'
+[2.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/hook/cmake_prefix_path.sh'
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/sasa_bot/bin'
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/sasa_bot/lib/pkgconfig/sasa_bot.pc'
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/sasa_bot/lib/python3.8/site-packages'
+[2.717s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/sasa_bot/bin'
+[2.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.ps1'
+[2.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.dsv'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.sh'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.bash'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.zsh'
+[2.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ispaik06/robot_ws/install/sasa_bot/share/colcon-core/packages/sasa_bot)
+[2.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(urdf_example)
+[2.793s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/urdf_example' for CMake module files
+[2.793s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/urdf_example' for CMake config files
+[2.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('urdf_example', 'cmake_prefix_path')
+[2.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/hook/cmake_prefix_path.ps1'
+[2.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/hook/cmake_prefix_path.dsv'
+[2.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/hook/cmake_prefix_path.sh'
+[2.817s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/urdf_example/bin'
+[2.817s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/urdf_example/lib/pkgconfig/urdf_example.pc'
+[2.817s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/urdf_example/lib/python3.8/site-packages'
+[2.817s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/urdf_example/bin'
+[2.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/package.ps1'
+[2.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/package.dsv'
+[2.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/package.sh'
+[2.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/package.bash'
+[2.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/package.zsh'
+[2.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ispaik06/robot_ws/install/urdf_example/share/colcon-core/packages/urdf_example)
+[2.871s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sasa_bot)
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/sasa_bot' for CMake module files
+[2.894s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/sasa_bot' for CMake config files
+[2.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('sasa_bot', 'cmake_prefix_path')
+[2.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/hook/cmake_prefix_path.ps1'
+[2.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/hook/cmake_prefix_path.dsv'
+[2.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/hook/cmake_prefix_path.sh'
+[2.917s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/sasa_bot/bin'
+[2.917s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/sasa_bot/lib/pkgconfig/sasa_bot.pc'
+[2.917s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/sasa_bot/lib/python3.8/site-packages'
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/sasa_bot/bin'
+[2.936s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.ps1'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.dsv'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.sh'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.bash'
+[2.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.zsh'
+[2.938s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ispaik06/robot_ws/install/sasa_bot/share/colcon-core/packages/sasa_bot)
+[2.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ispaik06/robot_ws/build/joy_tester' returned '0': PYTHONPATH=/home/ispaik06/robot_ws/build/joy_tester/prefix_override:/home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ispaik06/robot_ws/build/joy_tester/build
+[2.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ispaik06/robot_ws/src/joy_tester': PYTHONPATH=/home/ispaik06/robot_ws/build/joy_tester/prefix_override:/home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/ispaik06/robot_ws/build/joy_tester/build install --record /home/ispaik06/robot_ws/build/joy_tester/install.log --single-version-externally-managed
+[2.943s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ispaik06/robot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/ydlidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/ydlidar
+[2.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ispaik06/robot_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/ydlidar -- -j12 -l12
+[3.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ispaik06/robot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/ydlidar -- -j12 -l12
+[3.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ispaik06/robot_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/ydlidar
+[3.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar)
+[3.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ispaik06/robot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/ydlidar
+[3.070s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar' for CMake module files
+[3.071s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar' for CMake config files
+[3.071s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar', 'cmake_prefix_path')
+[3.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.ps1'
+[3.093s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.dsv'
+[3.093s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.sh'
+[3.093s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar/lib'
+[3.093s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar/bin'
+[3.093s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar/lib/pkgconfig/ydlidar.pc'
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar/lib/python3.8/site-packages'
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar/bin'
+[3.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.ps1'
+[3.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.dsv'
+[3.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.sh'
+[3.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.bash'
+[3.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.zsh'
+[3.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ispaik06/robot_ws/install/ydlidar/share/colcon-core/packages/ydlidar)
+[3.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ispaik06/robot_ws/src/joy_tester' returned '0': PYTHONPATH=/home/ispaik06/robot_ws/build/joy_tester/prefix_override:/home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/ispaik06/robot_ws/build/joy_tester/build install --record /home/ispaik06/robot_ws/build/joy_tester/install.log --single-version-externally-managed
+[3.158s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/joy_tester' for CMake module files
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/joy_tester' for CMake config files
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/joy_tester/lib'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/joy_tester/bin'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/joy_tester/lib/pkgconfig/joy_tester.pc'
+[3.159s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages'
+[3.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('joy_tester', 'pythonpath')
+[3.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/joy_tester/share/joy_tester/hook/pythonpath.ps1'
+[3.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ispaik06/robot_ws/install/joy_tester/share/joy_tester/hook/pythonpath.dsv'
+[3.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/joy_tester/share/joy_tester/hook/pythonpath.sh'
+[3.178s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/joy_tester/bin'
+[3.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joy_tester)
+[3.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/joy_tester/share/joy_tester/package.ps1'
+[3.197s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ispaik06/robot_ws/install/joy_tester/share/joy_tester/package.dsv'
+[3.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/joy_tester/share/joy_tester/package.sh'
+[3.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/joy_tester/share/joy_tester/package.bash'
+[3.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/joy_tester/share/joy_tester/package.zsh'
+[3.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ispaik06/robot_ws/install/joy_tester/share/colcon-core/packages/joy_tester)
+[3.218s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar)
+[3.237s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar' for CMake module files
+[3.237s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar' for CMake config files
+[3.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar', 'cmake_prefix_path')
+[3.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.ps1'
+[3.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.dsv'
+[3.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/hook/cmake_prefix_path.sh'
+[3.256s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar/lib'
+[3.257s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar/bin'
+[3.257s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar/lib/pkgconfig/ydlidar.pc'
+[3.257s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar/lib/python3.8/site-packages'
+[3.257s] Level 1:colcon.colcon_core.environment:checking '/home/ispaik06/robot_ws/install/ydlidar/bin'
+[3.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.ps1'
+[3.275s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.dsv'
+[3.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.sh'
+[3.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.bash'
+[3.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.zsh'
+[3.276s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ispaik06/robot_ws/install/ydlidar/share/colcon-core/packages/ydlidar)
+[3.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.276s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.276s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.301s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.314s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.344s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ispaik06/robot_ws/install/local_setup.ps1'
+[3.344s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ispaik06/robot_ws/install/_local_setup_util_ps1.py'
+[3.345s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ispaik06/robot_ws/install/setup.ps1'
+[3.365s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ispaik06/robot_ws/install/local_setup.sh'
+[3.366s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ispaik06/robot_ws/install/_local_setup_util_sh.py'
+[3.366s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ispaik06/robot_ws/install/setup.sh'
+[3.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ispaik06/robot_ws/install/local_setup.bash'
+[3.387s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ispaik06/robot_ws/install/setup.bash'
+[3.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ispaik06/robot_ws/install/local_setup.zsh'
+[3.411s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ispaik06/robot_ws/install/setup.zsh'

@@ -1,0 +1,50 @@
+[0.526s] Invoking command in '/home/ispaik06/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/sasa_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/sasa_bot
+[0.540s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.558s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.690s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.694s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.741s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.743s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.744s] -- Added test 'lint_cmake' to check CMake code style
+[0.744s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.744s] -- Added test 'xmllint' to check XML markup files
+[0.746s] -- Configuring done
+[0.746s] -- Generating done
+[0.747s] -- Build files have been written to: /home/ispaik06/robot_ws/build/sasa_bot
+[0.966s] Invoked command in '/home/ispaik06/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/sasa_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/sasa_bot
+[0.967s] Invoking command in '/home/ispaik06/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/sasa_bot -- -j12 -l12
+[1.184s] Invoked command in '/home/ispaik06/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/sasa_bot -- -j12 -l12
+[1.343s] Invoking command in '/home/ispaik06/robot_ws/build/sasa_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/sasa_bot
+[1.434s] -- Install configuration: ""
+[1.435s] -- Execute custom install script
+[1.435s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/config/empty.yaml
+[1.437s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/config/gazebo_params.yaml
+[1.437s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/config/my_controllers.yaml
+[1.437s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/config/view_bot.rviz
+[1.437s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/camera.xacro
+[1.437s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/depth_camera.xacro
+[1.438s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/gazebo_control.xacro
+[1.438s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/inertial_macros.xacro
+[1.438s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/lidar.xacro
+[1.438s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/robot.urdf.xacro
+[1.438s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/robot_core.xacro
+[1.438s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/description/ros2_control.xacro
+[1.438s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/launch/launch_sim.launch.py
+[1.438s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/launch/rsp.launch.py
+[1.438s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/worlds/empty.world
+[1.438s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/ament_index/resource_index/package_run_dependencies/sasa_bot
+[1.438s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/ament_index/resource_index/parent_prefix_path/sasa_bot
+[1.439s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/environment/ament_prefix_path.sh
+[1.439s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/environment/ament_prefix_path.dsv
+[1.439s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/environment/path.sh
+[1.439s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/environment/path.dsv
+[1.439s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.bash
+[1.439s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.sh
+[1.439s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.zsh
+[1.439s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/local_setup.dsv
+[1.439s] -- Symlinking: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.dsv
+[1.439s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/ament_index/resource_index/packages/sasa_bot
+[1.439s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/cmake/sasa_botConfig.cmake
+[1.439s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/cmake/sasa_botConfig-version.cmake
+[1.440s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/sasa_bot/share/sasa_bot/package.xml
+[1.441s] Invoked command in '/home/ispaik06/robot_ws/build/sasa_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/sasa_bot

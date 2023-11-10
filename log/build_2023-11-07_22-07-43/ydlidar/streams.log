@@ -1,0 +1,31 @@
+[0.346s] Invoking command in '/home/ispaik06/robot_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/ydlidar -- -j12 -l12
+[0.386s] [ 18%] Built target ydlidar_client
+[0.387s] [100%] Built target ydlidar_node
+[0.409s] Invoked command in '/home/ispaik06/robot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/ydlidar -- -j12 -l12
+[0.553s] Invoking command in '/home/ispaik06/robot_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/ydlidar
+[0.561s] -- Install configuration: ""
+[0.562s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+[0.562s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+[0.563s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/launch
+[0.563s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+[0.564s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+[0.564s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/params
+[0.565s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+[0.566s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/startup
+[0.567s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+[0.567s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[0.568s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[0.568s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[0.569s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[0.569s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/environment/path.sh
+[0.570s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+[0.570s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/local_setup.bash
+[0.570s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/local_setup.sh
+[0.570s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+[0.571s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+[0.571s] -- Installing: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.dsv
+[0.571s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[0.571s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[0.571s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[0.571s] -- Up-to-date: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.xml
+[0.725s] Invoked command in '/home/ispaik06/robot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/ydlidar

@@ -1,0 +1,41 @@
+[0.477s] Invoking command in '/home/ispaik06/robot_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/urdf_example -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/urdf_example
+[0.493s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.519s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.694s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.702s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.753s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.753s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.754s] -- Added test 'lint_cmake' to check CMake code style
+[0.754s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.754s] -- Added test 'xmllint' to check XML markup files
+[0.755s] -- Configuring done
+[0.757s] -- Generating done
+[0.757s] -- Build files have been written to: /home/ispaik06/robot_ws/build/urdf_example
+[0.767s] Invoked command in '/home/ispaik06/robot_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/urdf_example -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/urdf_example
+[0.770s] Invoking command in '/home/ispaik06/robot_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/urdf_example -- -j12 -l12
+[1.095s] Invoked command in '/home/ispaik06/robot_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/urdf_example -- -j12 -l12
+[1.114s] Invoking command in '/home/ispaik06/robot_ws/build/urdf_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/urdf_example
+[1.122s] -- Install configuration: ""
+[1.123s] -- Execute custom install script
+[1.123s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/description/example_gazebo.xacro
+[1.123s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/description/example_include.xacro
+[1.123s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/description/example_robot.urdf.xacro
+[1.124s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/launch/rsp.launch.py
+[1.124s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/launch/rsp_sim.launch.py
+[1.124s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/worlds/test_world.world
+[1.125s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/ament_index/resource_index/package_run_dependencies/urdf_example
+[1.125s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/ament_index/resource_index/parent_prefix_path/urdf_example
+[1.125s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/environment/ament_prefix_path.sh
+[1.125s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/environment/ament_prefix_path.dsv
+[1.126s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/environment/path.sh
+[1.126s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/environment/path.dsv
+[1.126s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/local_setup.bash
+[1.126s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/local_setup.sh
+[1.127s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/local_setup.zsh
+[1.127s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/local_setup.dsv
+[1.127s] -- Symlinking: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/package.dsv
+[1.137s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/ament_index/resource_index/packages/urdf_example
+[1.138s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig.cmake
+[1.138s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/cmake/urdf_exampleConfig-version.cmake
+[1.138s] -- Up-to-date symlink: /home/ispaik06/robot_ws/install/urdf_example/share/urdf_example/package.xml
+[1.231s] Invoked command in '/home/ispaik06/robot_ws/build/urdf_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/urdf_example

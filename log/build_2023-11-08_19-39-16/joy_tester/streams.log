@@ -1,0 +1,17 @@
+[1.260s] Invoking command in '/home/ispaik06/robot_ws/build/joy_tester': PYTHONPATH=/home/ispaik06/robot_ws/build/joy_tester/prefix_override:/home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ispaik06/robot_ws/build/joy_tester/build --no-deps install_data
+[1.656s] running develop
+[1.656s] running egg_info
+[1.657s] writing joy_tester.egg-info/PKG-INFO
+[1.657s] writing dependency_links to joy_tester.egg-info/dependency_links.txt
+[1.657s] writing entry points to joy_tester.egg-info/entry_points.txt
+[1.657s] writing requirements to joy_tester.egg-info/requires.txt
+[1.657s] writing top-level names to joy_tester.egg-info/top_level.txt
+[1.657s] reading manifest file 'joy_tester.egg-info/SOURCES.txt'
+[1.657s] writing manifest file 'joy_tester.egg-info/SOURCES.txt'
+[1.657s] running build_ext
+[1.657s] Creating /home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages/joy-tester.egg-link (link to .)
+[1.657s] Installing test_joy script to /home/ispaik06/robot_ws/install/joy_tester/lib/joy_tester
+[1.657s] 
+[1.657s] Installed /home/ispaik06/robot_ws/build/joy_tester
+[1.657s] running install_data
+[1.760s] Invoked command in '/home/ispaik06/robot_ws/build/joy_tester' returned '0': PYTHONPATH=/home/ispaik06/robot_ws/build/joy_tester/prefix_override:/home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ispaik06/robot_ws/build/joy_tester/build --no-deps install_data

@@ -1,0 +1,53 @@
+[0.259s] Invoking command in '/home/ispaik06/robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ispaik06/robot_ws/install/serial:/home/ispaik06/robot_ws/install/ydlidar_sdk:/home/ispaik06/robot_ws/install/ydlidar:/home/ispaik06/robot_ws/install/urdf_example:/home/ispaik06/robot_ws/install/diffdrive_arduino:/home/ispaik06/robot_ws/install/sasa_bot:/home/ispaik06/robot_ws/install/articubot_one:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/diffdrive_arduino
+[0.267s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.284s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.386s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.390s] -- Found serial: 1.2.1 (/home/ispaik06/robot_ws/install/serial/share/serial/cmake)
+[0.390s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[0.407s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.408s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.501s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.981s] -- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+[1.071s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.074s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.571s] -- Configuring done
+[1.603s] -- Generating done
+[1.604s] -- Build files have been written to: /home/ispaik06/robot_ws/build/diffdrive_arduino
+[1.610s] Invoked command in '/home/ispaik06/robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ispaik06/robot_ws/install/serial:/home/ispaik06/robot_ws/install/ydlidar_sdk:/home/ispaik06/robot_ws/install/ydlidar:/home/ispaik06/robot_ws/install/urdf_example:/home/ispaik06/robot_ws/install/diffdrive_arduino:/home/ispaik06/robot_ws/install/sasa_bot:/home/ispaik06/robot_ws/install/articubot_one:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/diffdrive_arduino -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/diffdrive_arduino
+[1.612s] Invoking command in '/home/ispaik06/robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ispaik06/robot_ws/install/serial:/home/ispaik06/robot_ws/install/ydlidar_sdk:/home/ispaik06/robot_ws/install/ydlidar:/home/ispaik06/robot_ws/install/urdf_example:/home/ispaik06/robot_ws/install/diffdrive_arduino:/home/ispaik06/robot_ws/install/sasa_bot:/home/ispaik06/robot_ws/install/articubot_one:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/diffdrive_arduino -- -j12 -l12
+[1.649s] [ 14%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[1.658s] [ 28%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[1.784s] [ 71%] Built target diffdrive_arduino
+[1.807s] [100%] Built target fake_robot
+[1.816s] Invoked command in '/home/ispaik06/robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ispaik06/robot_ws/install/serial:/home/ispaik06/robot_ws/install/ydlidar_sdk:/home/ispaik06/robot_ws/install/ydlidar:/home/ispaik06/robot_ws/install/urdf_example:/home/ispaik06/robot_ws/install/diffdrive_arduino:/home/ispaik06/robot_ws/install/sasa_bot:/home/ispaik06/robot_ws/install/articubot_one:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/diffdrive_arduino -- -j12 -l12
+[1.836s] Invoking command in '/home/ispaik06/robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ispaik06/robot_ws/install/serial:/home/ispaik06/robot_ws/install/ydlidar_sdk:/home/ispaik06/robot_ws/install/ydlidar:/home/ispaik06/robot_ws/install/urdf_example:/home/ispaik06/robot_ws/install/diffdrive_arduino:/home/ispaik06/robot_ws/install/sasa_bot:/home/ispaik06/robot_ws/install/articubot_one:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/diffdrive_arduino
+[1.840s] -- Install configuration: ""
+[1.841s] -- Execute custom install script
+[1.841s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[1.846s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[1.852s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[1.857s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/lib/libfake_robot.so
+[1.863s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[1.869s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[1.874s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[1.880s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[1.885s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[1.891s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[1.895s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[1.900s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[1.906s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[1.911s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[1.916s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[1.922s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[1.927s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[1.932s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[1.938s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[1.943s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[1.948s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[1.954s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[1.959s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[1.964s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.970s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[1.976s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[1.981s] -- Symlinking: /home/ispaik06/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[1.988s] Invoked command in '/home/ispaik06/robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ispaik06/robot_ws/install/serial:/home/ispaik06/robot_ws/install/ydlidar_sdk:/home/ispaik06/robot_ws/install/ydlidar:/home/ispaik06/robot_ws/install/urdf_example:/home/ispaik06/robot_ws/install/diffdrive_arduino:/home/ispaik06/robot_ws/install/sasa_bot:/home/ispaik06/robot_ws/install/articubot_one:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/diffdrive_arduino

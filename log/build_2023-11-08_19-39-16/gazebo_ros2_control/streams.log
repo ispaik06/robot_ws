@@ -1,0 +1,166 @@
+[0.697s] Invoking command in '/home/ispaik06/robot_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/gazebo_ros2_control/gazebo_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/gazebo_ros2_control
+[1.016s] -- The C compiler identification is GNU 9.4.0
+[1.017s] -- The CXX compiler identification is GNU 9.4.0
+[1.018s] -- Check for working C compiler: /usr/bin/cc
+[1.019s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.019s] -- Detecting C compiler ABI info
+[1.020s] -- Detecting C compiler ABI info - done
+[1.020s] -- Detecting C compile features
+[1.020s] -- Detecting C compile features - done
+[1.020s] -- Check for working CXX compiler: /usr/bin/c++
+[1.020s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.020s] -- Detecting CXX compiler ABI info
+[1.077s] -- Detecting CXX compiler ABI info - done
+[1.101s] -- Detecting CXX compile features
+[1.102s] -- Detecting CXX compile features - done
+[1.111s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.143s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.144s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.270s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.309s] -- Found angles: 1.12.6 (/opt/ros/foxy/share/angles/cmake)
+[1.309s] -- Found controller_manager: 0.11.0 (/opt/ros/foxy/share/controller_manager/cmake)
+[1.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.354s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.412s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.430s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.484s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.896s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.897s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.897s] -- Looking for pthread.h
+[1.951s] -- Looking for pthread.h - found
+[1.951s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.000s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.000s] -- Looking for pthread_create in pthreads
+[2.042s] -- Looking for pthread_create in pthreads - not found
+[2.043s] -- Looking for pthread_create in pthread
+[2.095s] -- Looking for pthread_create in pthread - found
+[2.095s] -- Found Threads: TRUE  
+[2.321s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[2.328s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.328s] -- Checking for module 'bullet>=2.82'
+[2.340s] --   Found bullet, version 2.88
+[2.440s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[2.480s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[2.521s] -- Found assimp: /usr/include (found version "5.0.0") 
+[2.539s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[2.561s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[2.577s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[2.581s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.588s] -- Searching for dependencies of ignition-math6
+[2.589s] -- Looking for OGRE...
+[2.589s] -- OGRE_PREFIX_WATCH changed.
+[2.594s] -- Checking for module 'OGRE'
+[2.605s] --   Found OGRE, version 1.9.0
+[2.633s] -- Found Ogre Ghadamon (1.9.0)
+[2.640s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.647s] -- Looking for OGRE_Paging...
+[2.653s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.653s] -- Looking for OGRE_Terrain...
+[2.659s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.660s] -- Looking for OGRE_Property...
+[2.663s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.663s] -- Looking for OGRE_RTShaderSystem...
+[2.667s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.667s] -- Looking for OGRE_Volume...
+[2.671s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.671s] -- Looking for OGRE_Overlay...
+[2.675s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.759s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.761s] -- Looking for ignition-transport8 -- found version 8.3.0
+[2.761s] -- Searching for dependencies of ignition-transport8
+[2.773s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[2.781s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.784s] -- Checking for module 'libzmq >= 4'
+[2.794s] --   Found libzmq , version 4.3.2
+[2.829s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.834s] -- Checking for module 'uuid'
+[2.847s] --   Found uuid, version 2.34.0
+[2.878s] -- Found UUID: TRUE  
+[2.880s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.880s] -- Searching for dependencies of ignition-msgs5
+[2.895s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.900s] -- Checking for module 'tinyxml2'
+[2.912s] --   Found tinyxml2, version 6.2.0
+[2.941s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[2.942s] -- Looking for ignition-common3 -- found version 3.14.2
+[2.942s] -- Searching for dependencies of ignition-common3
+[2.942s] -- Looking for dlfcn.h - found
+[2.944s] -- Looking for libdl - found
+[2.945s] -- Found DL: TRUE  
+[2.952s] -- Searching for <ignition-common3> component [graphics]
+[2.954s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[2.955s] -- Searching for dependencies of ignition-common3-graphics
+[2.955s] -- Looking for ignition-math6 -- found version 6.15.0
+[2.958s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[2.959s] -- Searching for dependencies of ignition-fuel_tools4
+[3.016s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[3.023s] -- Checking for module 'jsoncpp'
+[3.035s] --   Found jsoncpp, version 1.7.4
+[3.065s] -- Found JSONCPP: TRUE  
+[3.070s] -- Checking for module 'libzip'
+[3.086s] --   Found libzip, version 1.5.1
+[3.120s] -- Found ZIP: TRUE  
+[3.120s] -- Looking for ignition-common3 -- found version 3.14.2
+[3.121s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.121s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[3.123s] -- Gazebo version: 11.11
+[3.124s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[3.131s] -- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[3.131s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[3.251s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[3.253s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.312s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.313s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.313s] -- Configured cppcheck include dirs: /home/ispaik06/robot_ws/gazebo_ros2_control/gazebo_ros2_control/include
+[3.313s] -- Configured cppcheck exclude dirs and/or files: 
+[3.314s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.314s] -- Configured cpplint exclude dirs and/or files: 
+[3.314s] -- Added test 'lint_cmake' to check CMake code style
+[3.315s] -- Added test 'uncrustify' to check C / C++ code style
+[3.315s] -- Configured uncrustify additional arguments: 
+[3.316s] -- Added test 'xmllint' to check XML markup files
+[3.319s] -- Configuring done
+[3.365s] -- Generating done
+[3.366s] -- Build files have been written to: /home/ispaik06/robot_ws/build/gazebo_ros2_control
+[3.446s] Invoked command in '/home/ispaik06/robot_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/gazebo_ros2_control/gazebo_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/gazebo_ros2_control
+[3.447s] Invoking command in '/home/ispaik06/robot_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/gazebo_ros2_control -- -j12 -l12
+[3.475s] [35m[1mScanning dependencies of target gazebo_ros2_control[0m
+[3.475s] [35m[1mScanning dependencies of target gazebo_hardware_plugins[0m
+[3.565s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o[0m
+[3.587s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o[0m
+[10.008s] [ 75%] [32m[1mLinking CXX shared library libgazebo_hardware_plugins.so[0m
+[10.360s] [ 75%] Built target gazebo_hardware_plugins
+[11.073s] [100%] [32m[1mLinking CXX shared library libgazebo_ros2_control.so[0m
+[11.461s] [100%] Built target gazebo_ros2_control
+[11.470s] Invoked command in '/home/ispaik06/robot_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/gazebo_ros2_control -- -j12 -l12
+[11.489s] Invoking command in '/home/ispaik06/robot_ws/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/gazebo_ros2_control
+[11.494s] -- Install configuration: ""
+[11.494s] -- Execute custom install script
+[11.495s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[11.500s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[11.505s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[11.511s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[11.516s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[11.521s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[11.526s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[11.531s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[11.536s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[11.542s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[11.547s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[11.552s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[11.557s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[11.562s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[11.567s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[11.572s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[11.577s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[11.583s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[11.588s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[11.593s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[11.599s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[11.604s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.609s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.614s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[11.619s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[11.624s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[11.629s] -- Symlinking: /home/ispaik06/robot_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[11.635s] Invoked command in '/home/ispaik06/robot_ws/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/serial_motor_demo:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/gazebo_ros2_control

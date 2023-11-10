@@ -1,0 +1,21 @@
+[2.053s] Invoking command in '/home/ispaik06/robot_ws/src/joy_tester': PYTHONPATH=/home/ispaik06/robot_ws/build/joy_tester/prefix_override:/home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/ispaik06/robot_ws/build/joy_tester/build install --record /home/ispaik06/robot_ws/build/joy_tester/install.log --single-version-externally-managed
+[2.294s] running egg_info
+[2.294s] writing ../../build/joy_tester/joy_tester.egg-info/PKG-INFO
+[2.295s] writing dependency_links to ../../build/joy_tester/joy_tester.egg-info/dependency_links.txt
+[2.295s] writing entry points to ../../build/joy_tester/joy_tester.egg-info/entry_points.txt
+[2.295s] writing requirements to ../../build/joy_tester/joy_tester.egg-info/requires.txt
+[2.296s] writing top-level names to ../../build/joy_tester/joy_tester.egg-info/top_level.txt
+[2.342s] reading manifest file '../../build/joy_tester/joy_tester.egg-info/SOURCES.txt'
+[2.344s] writing manifest file '../../build/joy_tester/joy_tester.egg-info/SOURCES.txt'
+[2.344s] running build
+[2.345s] running build_py
+[2.345s] running install
+[2.345s] running install_lib
+[2.346s] running install_data
+[2.347s] running install_egg_info
+[2.349s] removing '/home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages/joy_tester-0.0.2-py3.8.egg-info' (and everything under it)
+[2.349s] Copying ../../build/joy_tester/joy_tester.egg-info to /home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages/joy_tester-0.0.2-py3.8.egg-info
+[2.350s] running install_scripts
+[2.371s] Installing test_joy script to /home/ispaik06/robot_ws/install/joy_tester/lib/joy_tester
+[2.373s] writing list of installed files to '/home/ispaik06/robot_ws/build/joy_tester/install.log'
+[2.503s] Invoked command in '/home/ispaik06/robot_ws/src/joy_tester' returned '0': PYTHONPATH=/home/ispaik06/robot_ws/build/joy_tester/prefix_override:/home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joy_tester build --build-base /home/ispaik06/robot_ws/build/joy_tester/build install --record /home/ispaik06/robot_ws/build/joy_tester/install.log --single-version-externally-managed

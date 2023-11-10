@@ -1,0 +1,18 @@
+[0.701s] Invoking command in '/home/ispaik06/robot_ws/build/serial_motor_demo': CMAKE_PREFIX_PATH=/home/ispaik06/robot_ws/install/serial_motor_demo_msgs:/home/ispaik06/robot_ws/install/ydlidar_sdk:/home/ispaik06/robot_ws/install/ydlidar:/home/ispaik06/robot_ws/install/urdf_example:/home/ispaik06/robot_ws/install/diffdrive_arduino:/home/ispaik06/robot_ws/install/serial:/home/ispaik06/robot_ws/install/sasa_bot:/home/ispaik06/robot_ws/install/gazebo_ros2_control_demos:/home/ispaik06/robot_ws/install/gazebo_ros2_control:/home/ispaik06/robot_ws/install/articubot_one PYTHONPATH=/home/ispaik06/robot_ws/build/serial_motor_demo/prefix_override:/home/ispaik06/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ispaik06/robot_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ispaik06/robot_ws/build/serial_motor_demo:/home/ispaik06/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ispaik06/robot_ws/build/joy_tester:/home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/ispaik06/robot_ws/build/serial_motor_demo/build --no-deps install_data
+[0.820s] running develop
+[0.885s] running egg_info
+[0.886s] writing serial_motor_demo.egg-info/PKG-INFO
+[0.886s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[0.886s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[0.886s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[0.886s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[0.903s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.903s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[0.920s] running build_ext
+[0.921s] Creating /home/ispaik06/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages/serial-motor-demo.egg-link (link to .)
+[0.921s] Installing driver script to /home/ispaik06/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.921s] Installing gui script to /home/ispaik06/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[0.921s] 
+[0.921s] Installed /home/ispaik06/robot_ws/build/serial_motor_demo
+[0.922s] running install_data
+[0.937s] Invoked command in '/home/ispaik06/robot_ws/build/serial_motor_demo' returned '0': CMAKE_PREFIX_PATH=/home/ispaik06/robot_ws/install/serial_motor_demo_msgs:/home/ispaik06/robot_ws/install/ydlidar_sdk:/home/ispaik06/robot_ws/install/ydlidar:/home/ispaik06/robot_ws/install/urdf_example:/home/ispaik06/robot_ws/install/diffdrive_arduino:/home/ispaik06/robot_ws/install/serial:/home/ispaik06/robot_ws/install/sasa_bot:/home/ispaik06/robot_ws/install/gazebo_ros2_control_demos:/home/ispaik06/robot_ws/install/gazebo_ros2_control:/home/ispaik06/robot_ws/install/articubot_one PYTHONPATH=/home/ispaik06/robot_ws/build/serial_motor_demo/prefix_override:/home/ispaik06/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ispaik06/robot_ws/install/serial_motor_demo_msgs/lib/python3.8/site-packages:/home/ispaik06/robot_ws/build/serial_motor_demo:/home/ispaik06/robot_ws/install/serial_motor_demo/lib/python3.8/site-packages:/home/ispaik06/robot_ws/build/joy_tester:/home/ispaik06/robot_ws/install/joy_tester/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --editable --build-directory /home/ispaik06/robot_ws/build/serial_motor_demo/build --no-deps install_data

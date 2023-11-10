@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+c6451a5d044efbfca90686bc364149d0 CMakeFiles/sasa_bot_uninstall

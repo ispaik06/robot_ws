@@ -1,0 +1,60 @@
+[0.378s] Invoking command in '/home/ispaik06/robot_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/ydlidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/ydlidar
+[0.385s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.402s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.549s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.560s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.605s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.605s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.699s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.734s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.736s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.895s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.995s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.058s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.107s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.117s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.117s] -- Configured cppcheck include dirs: /home/ispaik06/robot_ws/src/ydlidar_ros2/src;/home/ispaik06/robot_ws/src/ydlidar_ros2/sdk/include;/home/ispaik06/robot_ws/src/ydlidar_ros2/sdk/src
+[1.117s] -- Configured cppcheck exclude dirs and/or files: 
+[1.129s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.130s] -- Configured cpplint exclude dirs and/or files: 
+[1.131s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.132s] -- Added test 'lint_cmake' to check CMake code style
+[1.134s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.142s] -- Added test 'uncrustify' to check C / C++ code style
+[1.142s] -- Configured uncrustify additional arguments: 
+[1.144s] -- Added test 'xmllint' to check XML markup files
+[1.145s] -- Configuring done
+[1.158s] -- Generating done
+[1.159s] -- Build files have been written to: /home/ispaik06/robot_ws/build/ydlidar
+[1.277s] Invoked command in '/home/ispaik06/robot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake /home/ispaik06/robot_ws/src/ydlidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ispaik06/robot_ws/install/ydlidar
+[1.278s] Invoking command in '/home/ispaik06/robot_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/ydlidar -- -j12 -l12
+[1.379s] [ 18%] [32m[1mLinking CXX executable ydlidar_client[0m
+[1.379s] [ 18%] [32m[1mLinking CXX executable ydlidar_node[0m
+[1.475s] [ 90%] Built target ydlidar_node
+[1.493s] [100%] Built target ydlidar_client
+[1.501s] Invoked command in '/home/ispaik06/robot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --build /home/ispaik06/robot_ws/build/ydlidar -- -j12 -l12
+[1.526s] Invoking command in '/home/ispaik06/robot_ws/build/ydlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/ydlidar
+[1.531s] -- Install configuration: ""
+[1.531s] -- Execute custom install script
+[1.531s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/lib/ydlidar/ydlidar_node
+[1.537s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/lib/ydlidar/ydlidar_client
+[1.542s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/launch/ydlidar.py
+[1.547s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/launch/ydlidar_launch.py
+[1.552s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/params/ydlidar.yaml
+[1.557s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/startup/initenv.sh
+[1.562s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ament_index/resource_index/package_run_dependencies/ydlidar
+[1.567s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ament_index/resource_index/parent_prefix_path/ydlidar
+[1.571s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.sh
+[1.577s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/environment/ament_prefix_path.dsv
+[1.581s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/environment/path.sh
+[1.586s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/environment/path.dsv
+[1.592s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/local_setup.bash
+[1.597s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/local_setup.sh
+[1.602s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/local_setup.zsh
+[1.607s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/local_setup.dsv
+[1.611s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.dsv
+[1.616s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ament_index/resource_index/packages/ydlidar
+[1.621s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig.cmake
+[1.626s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/cmake/ydlidarConfig-version.cmake
+[1.630s] -- Symlinking: /home/ispaik06/robot_ws/install/ydlidar/share/ydlidar/package.xml
+[1.637s] Invoked command in '/home/ispaik06/robot_ws/build/ydlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ispaik06/robot_ws/install/joy_tester:/opt/ros/foxy /usr/bin/cmake --install /home/ispaik06/robot_ws/build/ydlidar
